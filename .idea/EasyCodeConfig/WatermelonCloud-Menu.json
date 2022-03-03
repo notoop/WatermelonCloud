@@ -1,0 +1,43 @@
+{
+  "name" : "Menu",
+  "originTableName" : "Menu",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "mId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Int",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "mUserType",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Int",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "mTypeOrder",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Int",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "mName",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.cuit.WatermelonCloud",
+  "savePath" : "./src/main/java/com/cuit/WatermelonCloud",
+  "saveModelName" : "WatermelonCloud"
+}

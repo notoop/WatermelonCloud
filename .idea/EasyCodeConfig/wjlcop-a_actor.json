@@ -1,0 +1,27 @@
+{
+  "name" : "AActor",
+  "originTableName" : "a_actor",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Int",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "name",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.cuit.wjlocp",
+  "savePath" : "./src/main/java/com/cuit/wjlocp",
+  "saveModelName" : "wjlocp"
+}

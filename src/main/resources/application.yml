@@ -1,0 +1,38 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /wc
+
+spring:
+  jackson:
+    default-property-inclusion: ALWAYS
+  datasource:
+    url: jdbc:mysql://117.18.13.74:3306/WatermelonCloud?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: '@52255225xY'
+
+logging:
+  level:
+    root: info
+    com.cuit.WatermelonCloud.mapper: DEBUG
+
+
+mybatis:
+  type-aliases-package: com.cuit.wjlocp.entity
+  # mapper-locations: classpath:mapper/*.xml
+  configuration:
+    call-setters-on-nulls: true
+    cache-enabled: true
+
+#分页
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true       #分页合理化
+  support-methods-arguments: true
+  params: count=countSql
+
+
+
+
+
